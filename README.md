@@ -1,3 +1,3 @@
 # ricos-tacos-food-truck
 
-Rico’s Tacos Food Truck is a mock food truck website, created for a TechConnect HTML & CSS class.
+Rico’s Tacos Food Truck is a mock food truck website, created for a NYPL Project Code Phase 1 class requirement.
