@@ -95,18 +95,22 @@ a:hover {
 }
 .right a:hover {
   color: #000;
+  letter-spacing: .12em;
 }
 a.menuspace {
+  letter-spacing: .12em;
   margin: 0% 0%;
   padding: 0% 3%;  
 }
 /* active tabs */
 a.aboutactive, a.menuactive, a.locationactive {
   color: #C7FF73; /* fluorescent lime green */  
+  letter-spacing: .12em;
   text-shadow: 2px 2px 5px #000;
 }
 a.aboutactive:hover, a.menuactive:hover, a.locationactive:hover {
   color: #FFF; 
+  letter-spacing: .12em;
   text-shadow: 2px 2px 5px #000;
 } 
 /* hero */
