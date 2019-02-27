@@ -25,11 +25,11 @@ lynda.com
 stackoverflow.com
 brackets.io
 thimble.mozilla.org
-fonts.google.com
-realfavicongenerator.net
 unsplash.com
 iStock
+fonts.google.com
 publicdomainvectors.org
+realfavicongenerator.net
 coolors.co
 colorhexa.com
 uigradients.com
@@ -95,22 +95,18 @@ a:hover {
 }
 .right a:hover {
   color: #000;
-  letter-spacing: .12em;
 }
 a.menuspace {
-  letter-spacing: .12em;
   margin: 0% 0%;
   padding: 0% 3%;  
 }
 /* active tabs */
 a.aboutactive, a.menuactive, a.locationactive {
   color: #C7FF73; /* fluorescent lime green */  
-  letter-spacing: .12em;
   text-shadow: 2px 2px 5px #000;
 }
 a.aboutactive:hover, a.menuactive:hover, a.locationactive:hover {
   color: #FFF; 
-  letter-spacing: .12em;
   text-shadow: 2px 2px 5px #000;
 } 
 /* hero */
@@ -215,7 +211,7 @@ a.aboutactive:hover, a.menuactive:hover, a.locationactive:hover {
   background-position: 0px -20px;
   z-index: 1;
 }
-/* food gallery */
+/* food gallery here */
 /* position image container (needed to position left and right arrows) */
 .container {
   background-color: #000;
@@ -1068,14 +1064,14 @@ h5.header-location {
   margin: 0px 0px;
   padding: 0px 0px;
 }
-.location-left-column {
+.location-hours-column {
   flex: 23%;
   background-color: #DFE3E3; /* grey */
   margin: 0px 0px;
   padding: 2% 3% 1% 3%;
   z-index: 1;
 }
-.location-left-column h1 {
+.location-hours-column h1 {
   color: #DE473A; /* vermilion */
   font-family: 'Rasa', serif;
   font-size: 50px;
@@ -1084,7 +1080,7 @@ h5.header-location {
   margin: 0px 0px;
   padding: 0px 0px 2% 0px;
 }
-.location-left-column h3 {
+.location-hours-column h3 {
   color: #673731; /* van dyke brown */
   font-family: 'Sue Ellen Francisco', cursive;
   text-align: center; 
@@ -1267,8 +1263,8 @@ hr.locatelines {
   }
     .tacobout h2 {
     text-align: center;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 38px;
+    line-height: 55px;
     text-shadow: 1px 1px #000;
     margin: 0% 0%;  
     padding: 5% 0%; 
@@ -1281,6 +1277,9 @@ hr.locatelines {
     .linesa, .linesb {
     display: none;
   } 
+    .prev, .next {
+    top: 46.5%;  
+  }   
     .numbertext {
     font-size: 15px;
   }
@@ -1292,11 +1291,18 @@ hr.locatelines {
     text-align: right;
   }
     .prev, .next {
-    font-size: 25px; 
+    font-size: 20px; 
   }
     .caption-container {
-    font-size: 25px;
+    font-size: 20px;
   } 
+    h4.menugallery a {
+    border: 1px solid #CDCDCD;
+    border-radius: 12px;
+    font-size: 10px;  
+    margin: 0px 0px 0px 6%;
+    padding: 8px 13px 7px 14px;
+  }
     .work {
     background-position: right;
     padding: 0px 0px 120px 0px; 
@@ -1316,13 +1322,33 @@ hr.locatelines {
     margin: 0% 0%;
     padding: 0% 2% 0% 0%;
   }
+    .workbox p, .locationbox p, .nycbox p {
+    width: 89%;
+    font-size: 18px;
+    line-height: 28px;
+    text-shadow: .5px .5px #465152; /* outer space */
+    margin: 0% 0% 0% 0%;
+    padding: 5.5% 2% 5% 8%;
+  }
+     /* need darker shadows on */
     .workbox p, .locationbox p {
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0% 0%; 
-  }   
-    .locationbox, .nycbox {
-    margin-right: 40px; 
+    background-color: rgba(0,0,0, 0.45); /* gray - see-through */   
+    }
+    .workbox h4, .locationbox h4, .nycbox h4 {
+    text-align: left;
+    margin: 0% 0% 0% 0%; 
+    padding: 0% 0% 0% 0%; 
+  }
+    .workbox h4 a, .locationbox h4 a, .nycbox h4 a {
+    color: #000;
+    border-radius: 12px;
+    font-size: 10.5px;
+    letter-spacing: .3em;
+    padding: 1.5% 3% 1.5% 4%;
+  } 
+    .workbox, .locationbox, .nycbox {
+    margin: 0% 0% 0% 0%; 
+    padding: 5% 5% 0% 5%;
   }
     .nycinsetpixa, .nycinsetpixb {
     flex: 70%;
@@ -1435,6 +1461,7 @@ hr.locatelines {
     margin: 5% 52% 0% 17%;
     padding: 1% 3% 0% 3.8%;
   }
+    /* credits menu opener images */
     .sg h6, .tc h6, .cl h6 {
     bottom: 6px; 
     right: 9px;
@@ -1488,14 +1515,14 @@ hr.locatelines {
     .location-parent {
     flex-wrap: wrap;
   }
-    .location-left-column {
+    .location-hours-column {
     margin: 5% 7%;
     padding: 5% 7%;
   }
-    .location-left-column h1 {
+    .location-hours-column h1 {
     font-size: 43px;
   }
-    .location-left-column h3 {
+    .location-hours-column h3 {
     font-size: 10vw; 
     line-height: 65px;
     margin: 0px 0px;
