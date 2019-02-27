@@ -1277,13 +1277,13 @@ hr.locatelines {
     .linesa, .linesb {
     display: none;
   } 
-    .prev, .next {
+  /*   .prev, .next {
     font-size: 20px;
     top: 46%;  
   }
     .numbertext {
     font-size: 15px;
-  }
+  } */
     .mySlides {
     padding: 10% 12% 10% 12%;
   }
@@ -1291,7 +1291,7 @@ hr.locatelines {
     width: 100%;
     text-align: right;
   }
-    .caption-container {
+   /* .caption-container {
     font-size: 20px;
   } 
     h4.menugallery a {
@@ -1300,7 +1300,7 @@ hr.locatelines {
     font-size: 10px;  
     margin: 0px 0px 0px 6%;
     padding: 8px 13px 7px 14px;
-  }
+  } */
     .work {
     background-position: right;
     padding: 0px 0px 120px 0px; 
