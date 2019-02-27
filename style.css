@@ -1278,8 +1278,9 @@ hr.locatelines {
     display: none;
   } 
     .prev, .next {
-    top: 46.5%;  
-  }   
+    font-size: 20px;
+    top: 46%;  
+  }
     .numbertext {
     font-size: 15px;
   }
@@ -1289,9 +1290,6 @@ hr.locatelines {
     h6.creditgallery {
     width: 100%;
     text-align: right;
-  }
-    .prev, .next {
-    font-size: 20px; 
   }
     .caption-container {
     font-size: 20px;
