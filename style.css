@@ -115,7 +115,7 @@ a.aboutactive:hover, a.menuactive:hover, a.locationactive:hover {
 /* hero */
 .hero {
   height: 100%;
-  background-color: #000; /* fallback */
+  background-color: #1A191F;
   background-image: url("images/tj-dragotta-unsplash-web.jpg"); 
   background-color: #000; 
   background-size: cover;
