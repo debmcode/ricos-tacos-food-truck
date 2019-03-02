@@ -148,7 +148,7 @@ a.aboutactive:hover, a.menuactive:hover, a.locationactive:hover {
   flex: 50%;
   position: relative;
   top: 25px;
-  left: 16px;
+  left: 10px;
   margin: 0% 0%;  
   padding: 0% 0%; 
 }
@@ -1274,7 +1274,7 @@ h4 span.checkusout {
     background-repeat: no-repeat;
     position: relative;
     margin: -35% 0% 0% 0%;  
-    padding: 0% 0% 70% 0%; 
+    padding: 0% 0% 60% 0%; 
   }
     .deliciousbox p {
     width: 33%;
@@ -1292,7 +1292,7 @@ h4 span.checkusout {
     font-size: 38px;
     line-height: 55px;
     position: relative;
-    bottom: -200px;
+    bottom: -180px;
     margin: 0% 0%;  
     padding: 5% 0%; 
   }
@@ -1614,12 +1614,12 @@ h4 span.checkusout {
     padding: 0% 8% 2% 8%;
   }
     .location h3 {
-    font-size: 7vw;    
+    font-size: 7.5vw;    
     margin: 4% 0% 0% 0%;
     padding: 0px 0px;
   }
     .location p {
-    font-size: 3.2vw;
+    font-size: 3.3vw;
     font-weight: 400;
     margin: 0px 0px 12px 0px;
     padding: 0px 0px;
