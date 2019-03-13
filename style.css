@@ -123,7 +123,7 @@ a.aboutactive:hover, a.menuactive:hover, a.locationactive:hover {
   background-position: center;
   position: relative; 
   margin: 0% 0%;
-  padding: 0px 0px 370px 0px;
+  padding: 0% 0% 30% 0%;
   z-index: 0;
 }
 .herocopy {
@@ -362,8 +362,8 @@ h4.menugallery a:hover {
   background-repeat: no-repeat;
   background-position: right;
   position: relative;
-  margin: 0px 0px;
-  padding: 0px 0px 320px 0px;
+  margin: 0% 0%;
+  padding: 0% 0% 25% 0%;
   z-index: 1;
 }
 .worklogo img {
@@ -382,8 +382,8 @@ h4.menugallery a:hover {
   background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
-  margin: 0px 0px;
-  padding: 0% 0% 80px 0%;
+  margin: 0% 0%;
+  padding: 0% 0% 15% 0%;
 }
 .nycflex {
   position: relative;
