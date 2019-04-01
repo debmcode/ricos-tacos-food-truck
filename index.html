@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rico’s Tacos Food Truck</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow|Rasa:300,400,500,600,700|Sarala:400,700|Sue+Ellen+Francisco" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#de473a">
+    <meta name="apple-mobile-web-app-title" content="Rico&rsquo;s Tacos Food Truck">
+    <meta name="application-name" content="Rico&rsquo;s Tacos Food Truck">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#de473a">    
+  </head>
+  <body id="top">
+    <div class="navbar">                   
+      <div class="left">
+        <a href="index.html" class="indexactive"><img src="images/rtlogonew.svg" alt="Rico’s Tacos Logo" style="width:100%"></a>
+      </div> 
+      <div class="right">    
+        <a href="about.html">About</a>
+        <a href="menu.html" class="menuspace">Menu</a>
+        <a href="location.html">Location&#8239;<span class="navamp">&amp;</span>&#8239;Hours</a>
+      </div>     
+    </div>
+      <div class="hero" role="img" aria-label="man working in food truck at night">
+        <div class="herocopy">   
+          <div class="deliciousbox">
+            <p>Delicious Mexican food served fresh and fast by Rico’s&nbsp;Tacos Food Truck NYC.</p>
+          </div>
+          <div class="tacoboutlines">
+            <div class="linesa">
+              <div class="ellipse"></div>
+                <div class="ellipse ellipsetwo">
+              </div>
+            </div>
+          <div class="tacobout">
+            <h2><span class="hungry">Hungry? </span>Let's<br>Taco-bout It!</h2>
+          </div>
+          <div class="linesb">
+            <div class="ellipse"></div>
+              <div class="ellipse ellipsetwo"></div>
+            </div>
+          </div>   
+        </div>  
+          <div class="credit"><h6>TJ Dragotta&#8239;/&#8239;Unsplash</h6></div>
+      </div> 
+        <div class="colorbar"></div>
+          <div class="colorbartwo"></div> 
+    <!-- FOOD GALLERY STARTS - credit: w3schools.com/howto/howto_js_slideshow_gallery.asp -->
+    <div class="container">  
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="images/christine-siracusa-unsplash-crop-web.jpg" style="width:100%" alt="Fajita Beef">
+          <h6 class="creditgallery">Christine Siracusa&#8239;/&#8239;Unsplash</h6>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="images/bhofacktwo-istock-web.jpg" style="width:100%" alt="Mexican Grilled Corn">
+          <h6 class="creditgallery">bhofack2&#8239;/&#8239;iStock</h6>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="images/louis-hansel-crop-unsplash-web.jpg" style="width:100%" alt="Veggie Fruit Combo">
+          <h6 class="creditgallery">Louis Hansel&#8239;/&#8239;Unsplash</h6>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="images/shawn-fields-unsplash-web.jpg" style="width:100%" alt="Chips with Salsa">
+          <h6 class="creditgallery">Shawn Fields&#8239;/&#8239;Unsplash</h6>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="images/vitchakorn-koonyosying-crop-unsplash-web.jpg" style="width:100%" alt="Fresh Fish">
+          <h6 class="creditgallery">Vitchakorn Koonyosying&#8239;/&#8239;Unsplash</h6>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="images/jennie-brown-unsplash-web.jpg" style="width:100%" alt="Homemade Cupcake">
+          <h6 class="creditgallery">Jennie Brown&#8239;/&#8239;Unsplash</h6>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>  
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <h4 class="menugallery"><a href="menu.html">Menu</a></h4>   
+      <div class="caption-container">
+        <p id="caption"></p>  
+      </div>   
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/christine-siracusa-unsplash-crop-web.jpg" style="width:100%" onclick="currentSlide(1)" alt="Fajita Beef">
+        </div>
+        <div class="column"> 
+          <img class="demo cursor" src="images/bhofacktwo-istock-web.jpg" style="width:100%" onclick="currentSlide(2)" alt="Mexican Grilled Corn">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/louis-hansel-crop-unsplash-web.jpg" style="width:100%" onclick="currentSlide(3)" alt="Veggie Fruit Combo">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/shawn-fields-unsplash-web.jpg" style="width:100%" onclick="currentSlide(4)" alt="Chips with Salsa">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/vitchakorn-koonyosying-crop-unsplash-web.jpg" style="width:100%" onclick="currentSlide(5)" alt="Fresh Fish">
+        </div> 
+        <div class="column">
+          <img class="demo cursor" src="images/jennie-brown-unsplash-web.jpg" style="width:100%" onclick="currentSlide(6)" alt="Homemade Cupcake">
+        </div>
+      </div>
+    </div>   
+    <script src="foodgallery.js"></script>      
+    <!--FOOD GALLERY ENDS-->
+    <div class="colorbar"></div>
+      <div class="colorbartwo"></div>  
+    <div class="work" role="img" aria-label="food preparation inside food truck">
+      <div class="workbox"><p> Rico’s&nbsp;Tacos menu offers a healthy variety of fresh, delicious Mexican food and beverages.</p>
+        <h4><a href="menu.html">Menu</a></h4>
+      </div>
+      <div class="locationbox"><p>When you’re ready to eat, a Rico’s&nbsp;Tacos Food Truck is easy to find near you!</p>
+        <h4><a href="location.html">Location &amp; Hours</a></h4>
+      </div>  
+      <div class="worklogo"><img src="images/rtlogonew.svg" alt="Rico’s Tacos Logo"></div>
+	  <img class="rt-icon" src="images/rt-icon.svg" alt="Rico’s Tacos Food Truck logo icon">
+      <div class="credit"><h6>Nick Karvounis&#8239;/&#8239;Unsplash</h6></div>    
+    </div>
+      <div class="colorbar"></div>
+        <div class="colorbartwo"></div>
+    <div class="nyc" role="img" aria-label="NYC skyline"> 
+      <div class="nycbox">
+        <p>Grandma and Grandpa Rico’s culinary journey began in 1940. Learn more about Rico’s family history, and how Rico’s Tacos Food Truck came to call New York City it’s home!</p>
+        <h4><a href="about.html">About</a></h4>
+       </div> 
+    <div class="nycflex">  
+      <div class="nycinsetpixa">
+        <img src="images/lady-photo-istock-web.png" alt="couple in front of car" width="90%">
+        <div class="creditinset"><h6>Lady-Photo&#8239;/&#8239;iStock</h6></div>
+        </div>
+      <div class="nycinsetpixb">
+         <img src="images/emily-fletke-unsplash-web.jpg" alt="NYC food truck" width="86%">
+        <div class="creditinset"><h6>Emily Fletke&#8239;/&#8239;Unsplash</h6></div>
+      </div>
+    </div> 
+	  <img class="rt-icon" src="images/rt-icon.svg" alt="Rico’s Tacos Food Truck logo icon">
+      <div class="credit"><h6>Background: Christopher Czermak&#8239;/&#8239;Unsplash</h6></div>    
+    </div>
+    <div class="indextotopbar">
+      <div class="backtotop"><h4><a href="#top">Back To Top</a></h4></div>
+    </div>
+  </body>
+</html>
