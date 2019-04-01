@@ -1602,19 +1602,18 @@ h4 span.checkusout {
     max-width: 100%;
   }
   img.pedestrians {
-	width: 150%;
-	 margin: 0px 0px 0px -40%;
+    width: 150%;
+    margin: 0px 0px 0px -40%;
     z-index: 0;
   }
   img.blanket {
-	width: 150%;
+    width: 150%;
     margin: .5% 0px 0px -25%;
     z-index: 0;
   } 
   .smallbox {
-	 /*   background-position: center; */
-	overflow: hidden;
-	}
+    overflow: hidden;
+  }
   h5.header-location {
     width: 74%;
     text-align: center;
